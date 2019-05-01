@@ -1,5 +1,5 @@
 """
-This code is for cropping of half face from a perfectly aligned face.
+This code is for cropping of half face from a rotated faceface.
 """
 import cv2
 import face_recognition
