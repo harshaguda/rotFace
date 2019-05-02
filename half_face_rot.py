@@ -61,8 +61,9 @@ if __name__ == '__main__':
 	cv2.waitKey(0)
 	angle, cropped = nose(image,bottom)
 	dst = rotate(image,angle)
-	face_image = face_crop(image)
-	angle, cropped = nose(face_image,bottom)
+	r_face_image, bottom = face_crop(dst)
+	cv2.imshow("face_image",r_face_image)
+	angle, cropped = nose(r_face_image,bottom)
 	print("angle:",angle)
 
 	cv2.imshow("cropped", cropped)
