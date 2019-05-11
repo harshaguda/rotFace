@@ -97,7 +97,7 @@ if __name__ == '__main__':
 			#cv2.imshow("face_image2",dst)
 			flag, angle, nose_cor,cropped_l,cropped_r = nose(dst)
 			cv2.imwrite(str(k)+".jpg",cropped_l)
-			cv2.imwrite(str(k+1)+".jpg",cropped_l)
+			cv2.imwrite(str(k+1)+".jpg",cropped_r)
 			#cv2.imshow("cropped_l", cropped_l)
 			#cv2.imshow("cropped_r",cropped_r)
 		#angle, cropped = nose(r_face_image,bottom)
