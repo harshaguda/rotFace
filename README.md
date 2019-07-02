@@ -8,4 +8,6 @@
   * pip install dlib 
   * pip install face_recognition
   * pip install imutils
+  
+  
 More information about face_recognition[https://github.com/ageitgey/face_recognition]
