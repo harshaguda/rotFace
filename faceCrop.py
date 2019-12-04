@@ -11,7 +11,7 @@ def face_crop(image,c):
 		top, right, bottom, left = face_location
 		face_image = image[top:bottom, left:right]
 		c = c+1
-		img_name = 'arunima'+'/'+str(c)+'.jpg'
+		img_name = name_ +'/'+str(c)+'.jpg'
 		cv2.imwrite(img_name,face_image)
 	if face_image is not None: 
 		return face_image,c
